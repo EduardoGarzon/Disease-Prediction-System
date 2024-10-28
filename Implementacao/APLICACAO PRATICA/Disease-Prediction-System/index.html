@@ -14,62 +14,73 @@
     </header>
 
     <main>
-        <!-- Área para o formulário principal. -->
-        <div id="div-form">
-            <div id="div-form-h1">
-                <h1>Selecione seus sintomas</h1>
-            </div>
-            <!-- Formulário para inserir os sintomas. -->
-            <form id="sintomas-form">
-                <!-- Selecão dos sintomas. -->
-                <select name="sintomas" id="sintomas">
-                    <option value="#"  disabled hidden selected>Lista de Sintomas</option>
-                </select>
-
-                <!-- Lista dos sintomas selecionados. -->
-                <div id="div-sintomas-list">
-                    <ol id="sintomas-list">
-
-                    </ol>
+        <section id="section-1">
+            <!-- Área para o formulário principal. -->
+            <div id="div-form">
+                <div id="div-form-h1">
+                    <h1>Selecione seus sintomas</h1>
                 </div>
-
-                <!-- Botão para remover apenas os sintomas selecionados. -->
-                <input type="button" id="btn-remover-sintomas-selecionados" value="Remover Sintomas Selecionados">
-
-                <!-- Botão para remover todos os sintomas informados. -->
-                <input type="button" id="btn-limpar-tudo" value="Limpar Tudo">
-
-                <!-- Botão para submeter o formulário para API. -->
-                <button type="submit" id="btn-submit">Enviar</button>
-            </form>
-        </div>
-
-        <!-- Área para escrever o diagnóstico gerado. -->
-        <div id="div-area-de-diagnostico">
-            <div id="div-area-de-diagnostico-h1">
-                <h1>Resultado do Diagnóstico</h1>
+                <!-- Formulário para inserir os sintomas. -->
+                <form id="sintomas-form">
+                    <!-- Selecão dos sintomas. -->
+                    <select name="sintomas" id="sintomas">
+                        <option value="#" disabled hidden selected>Lista de Sintomas</option>
+                    </select>
+    
+                    <!-- Lista dos sintomas selecionados. -->
+                    <div id="div-sintomas-list">
+                        <ol id="sintomas-list"></ol>
+                    </div>
+    
+                    <!-- Botão para remover apenas os sintomas selecionados. -->
+                    <input type="button" id="btn-remover-sintomas-selecionados" value="Remover Sintomas Selecionados">
+    
+                    <!-- Botão para remover todos os sintomas informados. -->
+                    <input type="button" id="btn-limpar-tudo" value="Limpar Tudo">
+    
+                    <!-- Botão para submeter o formulário para API. -->
+                    <button type="submit" id="btn-submit">Enviar</button>
+                </form>
             </div>
-            <div id="div-diagnostico">
-                <!-- Nome da classe das doencas. -->
-                <h2 id="div-diagnostico-classificacao">Classificação</h2>
-                <h2 id="nome-da-classe"></h2>
-                <!-- Nome das doencas. -->
-                <ol id="lista-de-doencas"></ol>
-            </div>
-        </div>
+        </section>
 
-        <!-- Informacoes sobre a doenca e precaucoes -->
-        <div id="informacao-doenca" style="display:none;">
-            <h1>Informações sobre a doença:</h1>
-            <p id="info-doenca">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo repudiandae quod cumque soluta accusamus inventore voluptas ducimus nisi quasi. Alias labore ratione impedit saepe sint sed reiciendis officiis reprehenderit quod?</p>
-            <h1>Sugestões de precauções:</h1>
-            <p id="precaucao-doenca">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas suscipit dolores illum eveniet at officiis porro libero voluptates debitis ducimus, illo numquam dignissimos, doloremque nulla quidem blanditiis, ipsa temporibus tenetur?</p>
-            <input type="button" value="Fechar Janela" id="btn-fechar-janela">
-        </div>
+        <section id="section-2">
+            <!-- Área para escrever o diagnóstico gerado. -->
+            <div id="div-area-de-diagnostico">
+                <div id="div-area-de-diagnostico-h1">
+                    <h1>Resultado do Diagnóstico</h1>
+                </div>
+                <div id="div-diagnostico">
+                    <!-- Nome da classe das doencas. -->
+                    <h2 id="div-diagnostico-classificacao">Classificação</h2>
+                    <h2 id="nome-da-classe"></h2>
+                    <!-- Nome das doencas. -->
+                    <div id="div-lista-de-doencas">
+                        <ol id="lista-de-doencas"></ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-3">
+            <!-- Informacoes sobre a doenca e precaucoes -->
+            <div id="informacao-doenca" style="display:none;">
+                <div id="informacao-doenca-content">
+                    <h1>Informações sobre a doença:</h1>
+                    <p id="info-doenca">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo repudiandae quod
+                        cumque soluta accusamus inventore voluptas ducimus nisi quasi. Alias labore ratione impedit saepe
+                        sint sed reiciendis officiis reprehenderit quod?</p>
+                    <h1>Sugestões de precauções:</h1>
+                    <p id="precaucao-doenca">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas suscipit
+                        dolores illum eveniet at officiis porro libero voluptates debitis ducimus, illo numquam dignissimos,
+                        doloremque nulla quidem blanditiis, ipsa temporibus tenetur?</p>
+                </div>
+                <div id="div-btn-button">
+                    <input type="button" value="Fechar Janela" id="btn-fechar-janela">
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        &copy;Disease Prediction System | 2024
-    </footer>
 
     <!-- Código javascript implementando a lógica funcional. -->
     <script src="script.js"></script>

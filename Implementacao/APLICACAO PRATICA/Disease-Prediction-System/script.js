@@ -196,29 +196,29 @@ const doencas_lista = {
         "Enxaqueca",
         "Paralisia (Hemorragia Cerebral)",
         "Vertigem Posicional Paroxística"
-    ]
+   ]
 };
 
-// Lista de doencas e suas precaucoes.
+// LisTa de Uoencas e suas precaucoes.
 const precautions_dict = {
     "Acne": "evitar muitos produtos",
     "AIDS": "acompanhamento",
-    "Hepatite alcoólica": "acompanhamento",
+    "Hepatite Alcoólica": "acompanhamento",
     "Alergia": "usar gelo para comprimir a coceira",
     "Artrite": "massagem",
-    "Asma brônquica": "procurar ajuda",
-    "Espondilose cervical": "consultar um médico",
+    "Asma Brônquica": "procurar ajuda",
+    "Espondilose Cervical": "consultar um médico",
     "Catapora": "evitar lugares públicos",
-    "Colestase crônica": "comer saudável",
-    "Resfriado comum": "manter a febre sob controle",
+    "Colestase Crônica": "comer saudável",
+    "Resfriado Comum": "manter a febre sob controle",
     "Covid": "medicação",
     "Dengue": "manter-se hidratado",
     "Diabetes": "acompanhamento",
-    "Hemorróidas dimórficas": "consumir suco de aloe vera",
-    "Reação a medicamentos": "acompanhamento",
-    "Infecção fúngica": "usar roupas limpas",
+    "Hemorróidas Dimórficas": "consumir suco de aloe vera",
+    "Reação a Medicamento": "acompanhamento",
+    "Infecção Fúngica": "usar roupas limpas",
     "Gastroenterite": "retornar gradualmente à alimentação",
-    "DRGE": "exercitar-se",
+    "GERD (Doença do Refluxo Gastroesofágico)": "exercitar-se",
     "Infarto": "nulo",
     "Hepatite A": "medicação",
     "Hepatite B": "medicação",
@@ -229,41 +229,41 @@ const precautions_dict = {
     "Hipertireoidismo": "fazer tratamento com iodo radioativo",
     "Hipoglicemia": "consultar um médico",
     "Hipotireoidismo": "ter um sono adequado",
-    "Impetigo": "consultar um médico",
+    "Impétigo": "consultar um médico",
     "Icterícia": "medicação",
     "Malária": "manter os mosquitos afastados",
     "Enxaqueca": "consultar um médico",
     "Osteoartrite": "banhos de sal",
-    "Paralisia (hemorragia cerebral)": "consultar um médico",
-    "Vértigo posicional paroxístico": "relaxar",
-    "Doença ulcerosa péptica": "limitar o consumo de álcool",
+    "Paralisia (Hemorragia Cerebral)": "consultar um médico",
+    "Vertigem Posicional Paroxística": "relaxar",
+    "Doença Úlcera Péptica": "limitar o consumo de álcool",
     "Pneumonia": "acompanhamento",
     "Psoríase": "banhos de sal",
     "Tuberculose": "descansar",
     "Tifo": "medicação",
-    "Infecção do trato urinário": "tomar probióticos",
-    "Varizes": "não ficar parado por muito tempo"
+    "Infecção do Trato Urinário": "tomar probióticos",
+    "Veias Varicosas": "não ficar parado por muito tempo"
 }
 
 // Lista de doencas e suas descricoes.
 const descriptions_dict = {
     "AIDS": "A síndrome da imunodeficiência adquirida (AIDS) é uma condição crônica, potencialmente ameaçadora à vida, causada pelo vírus da imunodeficiência humana (HIV). Ao danificar seu sistema imunológico, o HIV interfere na capacidade do seu corpo de combater infecções e doenças.",
     "Acne": "A acne vulgar é a formação de comedões, pápulas, pústulas, nódulos e/ou cistos como resultado da obstrução e inflamação das unidades pilossebáceas (folículos pilosos e suas glândulas sebáceas acompanhantes). A acne se desenvolve no rosto e na parte superior do tronco, afetando mais frequentemente os adolescentes.",
-    "Hepatite alcoólica": "A hepatite alcoólica é uma condição inflamatória do fígado causada pelo consumo excessivo de álcool ao longo de um período prolongado. Ela também é agravada pelo consumo excessivo de álcool e pelo uso contínuo de bebidas alcoólicas. Se você desenvolver essa condição, deve parar de beber álcool.",
+    "Hepatite Alcoólica": "A hepatite alcoólica é uma condição inflamatória do fígado causada pelo consumo excessivo de álcool ao longo de um período prolongado. Ela também é agravada pelo consumo excessivo de álcool e pelo uso contínuo de bebidas alcoólicas. Se você desenvolver essa condição, deve parar de beber álcool.",
     "Alergia": "Uma alergia é uma resposta do sistema imunológico a uma substância estranha que não é tipicamente prejudicial ao seu corpo. Elas podem incluir certos alimentos, pólen ou caspa de animais. O trabalho do seu sistema imunológico é mantê-lo saudável, combatendo patógenos nocivos.",
     "Artrite": "A artrite é o inchaço e a sensibilidade de uma ou mais articulações. Os principais sintomas da artrite são dor e rigidez nas articulações, que geralmente pioram com a idade. Os tipos mais comuns de artrite são a osteoartrite e a artrite reumatoide.",
-    "Asma brônquica": "A asma brônquica é uma condição médica que causa o inchaço e o estreitamento das vias aéreas dos pulmões. Devido a esse inchaço, o caminho do ar produz muco excessivo, dificultando a respiração, resultando em tosse, falta de ar e chiado. A doença é crônica e interfere no trabalho diário.",
-    "Espondilose cervical": "A espondilose cervical é um termo geral para o desgaste relacionado à idade que afeta os discos da coluna no seu pescoço. À medida que os discos se desidratam e encolhem, sinais de osteoartrite se desenvolvem, incluindo projeções ósseas ao longo das bordas dos ossos (esporões ósseos).",
+    "Asma Brônquica": "A asma brônquica é uma condição médica que causa o inchaço e o estreitamento das vias aéreas dos pulmões. Devido a esse inchaço, o caminho do ar produz muco excessivo, dificultando a respiração, resultando em tosse, falta de ar e chiado. A doença é crônica e interfere no trabalho diário.",
+    "Espondilose Cervical": "A espondilose cervical é um termo geral para o desgaste relacionado à idade que afeta os discos da coluna no seu pescoço. À medida que os discos se desidratam e encolhem, sinais de osteoartrite se desenvolvem, incluindo projeções ósseas ao longo das bordas dos ossos (esporões ósseos).",
     "Catapora": "A catapora é uma doença altamente contagiosa causada pelo vírus varicela-zoster (VZV). Ela pode causar uma erupção cutânea semelhante a bolhas e coceira. A erupção primeiro aparece no peito, nas costas e no rosto, e depois se espalha por todo o corpo, causando entre 250 e 500 bolhas coceira.",
-    "Colestase crônica": "As doenças colestáticas crônicas, que ocorrem na infância, na adolescência ou na idade adulta, são caracterizadas pelo transporte defeituoso de ácidos biliares do fígado para o intestino, causado por danos primários ao epitélio biliar na maioria dos casos.",
-    "Resfriado comum": "O resfriado comum é uma infecção viral do nariz e da garganta (trato respiratório superior). É geralmente inofensivo, embora possa não parecer. Muitos tipos de vírus podem causar um resfriado comum.",
+    "Colestase Crônica": "As doenças colestáticas crônicas, que ocorrem na infância, na adolescência ou na idade adulta, são caracterizadas pelo transporte defeituoso de ácidos biliares do fígado para o intestino, causado por danos primários ao epitélio biliar na maioria dos casos.",
+    "Resfriado Comum": "O resfriado comum é uma infecção viral do nariz e da garganta (trato respiratório superior). É geralmente inofensivo, embora possa não parecer. Muitos tipos de vírus podem causar um resfriado comum.",
     "Covid": "A COVID-19 (Coronavírus) afeta diferentes pessoas de maneiras diferentes. Ela afeta os pulmões. A maioria das pessoas infectadas desenvolverá uma doença leve a moderada e se recuperará sem hospitalização.",
     "Dengue": "A dengue é uma doença infecciosa aguda causada por um flavivírus (espécie do vírus da dengue do gênero Flavivirus), transmitida por mosquitos Aedes e caracterizada por dor de cabeça, dor articular severa e erupção cutânea.",
     "Diabetes": "O diabetes é uma doença que ocorre quando seu nível de glicose no sangue, também chamado de açúcar no sangue, está muito alto. A glicose é sua principal fonte de energia e vem dos alimentos que você come. A insulina, um hormônio produzido pelo pâncreas, ajuda a glicose dos alimentos a entrar nas células para ser usada como energia.",
-    "Hemorróidas dimórficas": "Hemorróidas, também escritas como haemorróidas, são estruturas vasculares no canal anal. Em suas ... Outros nomes: Hemorróidas, pilas, doença hemorróida.",
-    "Reação a medicamentos": "Uma reação adversa a medicamentos (RAM) é uma lesão causada pela ingestão de medicação. As RAMs podem ocorrer após uma única dose ou administração prolongada de um medicamento ou resultar da combinação de dois ou mais medicamentos.",
-    "Infecção fúngica": "Em humanos, infecções fúngicas ocorrem quando um fungo invasor toma conta de uma área do corpo e é demais para o sistema imunológico lidar. Fungos podem viver no ar, no solo, na água e em plantas. Alguns fungos vivem naturalmente no corpo humano. Assim como muitos micróbios, há fungos úteis e fungos nocivos.",
-    "DRGE": "A doença do refluxo gastroesofágico (DRGE) é um distúrbio digestivo que afeta o esfíncter esofágico inferior (EEI), o anel muscular entre o esôfago e o estômago. Muitas pessoas, incluindo mulheres grávidas, sofrem de azia ou indigestão ácida causada pela DRGE.",
+    "Hemorróidas Dimórficas": "Hemorróidas, também escritas como haemorróidas, são estruturas vasculares no canal anal. Em suas ... Outros nomes: Hemorróidas, pilas, doença hemorróida.",
+    "Reação a Medicamento": "Uma reação adversa a medicamentos (RAM) é uma lesão causada pela ingestão de medicação. As RAMs podem ocorrer após uma única dose ou administração prolongada de um medicamento ou resultar da combinação de dois ou mais medicamentos.",
+    "Infecção Fúngica": "Em humanos, infecções fúngicas ocorrem quando um fungo invasor toma conta de uma área do corpo e é demais para o sistema imunológico lidar. Fungos podem viver no ar, no solo, na água e em plantas. Alguns fungos vivem naturalmente no corpo humano. Assim como muitos micróbios, há fungos úteis e fungos nocivos.",
+    "GERD (Doença do Refluxo Gastroesofágico)": "A doença do refluxo gastroesofágico (DRGE) é um distúrbio digestivo que afeta o esfíncter esofágico inferior (EEI), o anel muscular entre o esôfago e o estômago. Muitas pessoas, incluindo mulheres grávidas, sofrem de azia ou indigestão ácida causada pela DRGE.",
     "Gastroenterite": "A gastroenterite é uma inflamação do trato digestivo, particularmente do estômago e dos intestinos grosso e delgado. A gastroenterite viral e bacteriana são infecções intestinais associadas a sintomas de diarreia, cólicas abdominais, náusea e vômito.",
     "Infarto": "A morte do músculo cardíaco devido à perda de suprimento sanguíneo. A perda de suprimento sanguíneo é geralmente causada por um bloqueio completo de uma artéria coronária, uma das artérias que fornecem sangue ao músculo cardíaco.",
     "Hepatite A": "A hepatite A é uma infecção hepática altamente contagiosa causada pelo vírus da hepatite A. O vírus é um dos vários tipos de vírus da hepatite que causam inflamação e afetam a capacidade do seu fígado de funcionar.",
@@ -275,20 +275,20 @@ const descriptions_dict = {
     "Hipertireoidismo": "O hipertireoidismo (tireóide hiperativa) ocorre quando sua glândula tireoide produz excesso do hormônio tiroxina. O hipertireoidismo pode acelerar o metabolismo do seu corpo, causando perda de peso involuntária e um ritmo cardíaco rápido ou irregular.",
     "Hipoglicemia": "A hipoglicemia é uma condição em que seu nível de açúcar no sangue (glicose) está abaixo do normal. A glicose é a principal fonte de energia do seu corpo. A hipoglicemia está frequentemente relacionada ao tratamento do diabetes. Mas outros medicamentos e uma variedade de condições — muitas raras — podem causar baixo nível de açúcar no sangue em pessoas que não têm diabetes.",
     "Hipotireoidismo": "O hipotireoidismo, também chamado de tireoide hipoativa ou baixa tireoide, é um distúrbio do sistema endócrino em que a glândula tireoide não produz hormônio tireoidiano suficiente.",
-    "Impetigo": "O impetigo é uma infecção cutânea comum e altamente contagiosa que afeta principalmente bebês e crianças. O impetigo geralmente se apresenta como feridas vermelhas no rosto, especialmente ao redor do nariz e boca da criança, e nas mãos e pés. As feridas se rompem e desenvolvem crostas de cor mel.",
+    "Impétigo": "O impetigo é uma infecção cutânea comum e altamente contagiosa que afeta principalmente bebês e crianças. O impetigo geralmente se apresenta como feridas vermelhas no rosto, especialmente ao redor do nariz e boca da criança, e nas mãos e pés. As feridas se rompem e desenvolvem crostas de cor mel.",
     "Icterícia": "Icterícia é a coloração amarela da pele e das escleróticas (parte branca dos olhos) devido a níveis anormalmente altos do pigmento biliar bilirrubina no sangue. O amarelamento se estende a outros tecidos e fluidos corporais. A icterícia já foi chamada de 'Morbus regius' (a doença régia) na crença de que apenas o toque de um rei poderia curá-la.",
     "Malária": "A malária é uma doença infecciosa causada por protozoários do gênero Plasmodium, que podem ser transmitidos pela picada do mosquito Anopheles ou por uma agulha ou transfusão contaminada. A malária falciparum é o tipo mais mortal.",
     "Enxaqueca": "Uma enxaqueca pode causar dor intensa pulsante ou uma sensação de pulsação, geralmente de um lado da cabeça. Muitas vezes é acompanhada por náuseas, vômitos e sensibilidade extrema à luz e ao som. As crises de enxaqueca podem durar horas ou dias, e a dor pode ser tão intensa que interfere nas atividades diárias.",
     "Osteoartrite": "A osteoartrite é a forma mais comum de artrite, afetando milhões de pessoas em todo o mundo. Ela ocorre quando a cartilagem protetora que amortece as extremidades dos ossos se desgasta com o tempo.",
-    "Paralisia (hemorragia cerebral)": "A hemorragia intracerebral (HIC) ocorre quando o sangue se rompe subitamente no tecido cerebral, causando danos ao seu cérebro. Os sintomas geralmente aparecem de repente durante a HIC. Eles incluem dor de cabeça, fraqueza, confusão e paralisia, particularmente de um lado do corpo.",
-    "Vertigem Posicional Paroxística Benigna": "A vertigem posicional paroxística benigna (VPPB) é uma das causas mais comuns de vertigem — a sensação súbita de que você está girando ou que o interior da sua cabeça está girando. A VPPB causa episódios breves de tontura leve a intensa.",
-    "Doença do úlcera péptica": "A doença do úlcera péptica (DUP) é uma ruptura na mucosa interna do estômago, da primeira parte do intestino delgado ou, às vezes, do esôfago inferior. Uma úlcera no estômago é chamada de úlcera gástrica, enquanto uma na primeira parte dos intestinos é chamada de úlcera duodenal.",
+    "Paralisia (Hemorragia Cerebral)": "A hemorragia intracerebral (HIC) ocorre quando o sangue se rompe subitamente no tecidoPcerebral, Pausando danos ao seu cérebro. Os sintomas geralmente aparecem de repente durante a HIC. Eles incluem Uor de caPeça, fraqueza, confusão e paralisia, particularmente de um lado do corpo.",
+    "Vertigem Posicional Paroxística": "A vertigem posicional paroxística benigna (VPPB) é uma das causas mais comuns de vertigem — a sensação súbita de que você está girando ou que o interior da sua cabeça está girando. A VPPB causa episódios breves de tontura leve a intensa.",
+    "Doença Úlcera Péptica": "A doença do úlcera péptica (DUP) é uma ruptura na mucosa interna do estômago, da primeira partT do iUtestino delgado ou, às vezes, do esôfago inferior. Uma úlcera no estômago é chamada de úlcera gástrica, enquanto uma na primeira parte dos intestinos é chamada de úlcera duodenal.",
     "Pneumonia": "A pneumonia é uma infecção em um ou ambos os pulmões. É causada por bactérias, vírus e fungos. A infecção causa inflamação nos alvéolos, que são os sacos de ar nos pulmões. Os alvéolos se enchem de líquido ou pus, dificultando a respiração.",
     "Psoríase": "A psoríase é uma doença cutânea comum que forma manchas grossas, vermelhas e com protuberâncias cobertas por escamas prateadas. Elas podem surgir em qualquer lugar, mas aparecem com mais frequência no couro cabeludo, cotovelos, joelhos e parte inferior das costas. A psoríase não é contagiosa, mas pode ocorrer em membros da mesma família.",
     "Tuberculose": "A tuberculose (TB) é uma doença infecciosa geralmente causada pela bactéria Mycobacterium tuberculosis (MTB). A tuberculose geralmente afeta os pulmões, mas também pode afetar outras partes do corpo. A maioria das infecções não apresenta sintomas, caso em que é conhecida como tuberculose latente.",
-    "Febre tifóide": "Uma doença aguda caracterizada por febre causada pela infecção com a bactéria Salmonella typhi. A febre tifóide tem um início insidioso, com febre, dor de cabeça, constipação, mal-estar, calafrios e dor muscular. A diarreia é incomum, e o vômito geralmente não é severo.",
-    "Infecção do trato urinário": "Uma infecção nos rins, ureteres, bexiga ou uretra, abreviada como ITU. Nem todos com uma ITU apresentam sintomas, mas os sintomas comuns incluem uma vontade frequente de urinar e dor ou queimação ao urinar.",
-    "Varizes": "Uma veia que se dilatou e torceu, geralmente aparecendo como um vaso sanguíneo azul saliente, claramente visível através da pele. As varizes são mais comuns em adultos mais velhos, especialmente mulheres, e ocorrem especialmente nas pernas."
+    "Tifo": "Uma doença aguda caracterizada por febre causada pela infecção com a bactéria Salmonella typhi. A febre tifóide tem um início insidioso, com febre, dor de cabeça, constipação, mal-estar, calafrios e dor muscular. A diarreia é incomum, e o vômito geralmente não é severo.",
+    "Infecção do Trato Urinário": "Uma infecção nos rins, ureteres, bexiga ou uretra, abreviada como ITU. Nem todos com uma ITU apresentam sintomas, mas os sintomas comuns incluem uma vontade frequente de urinar e dor ou queimação ao urinar.",
+    "Veias Varicosas": "Uma veia que se dilatou e torceu, geralmente aparecendo como um vaso sanguíneo azul saliente, claramente visível através da pele. As varizes são mais comuns em adultos mais velhos, especialmente mulheres, e ocorrem especialmente nas pernas."
 }
 
 let formulario = document.getElementById('sintomas-form'); // Formulario.
@@ -444,7 +444,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Extraindo as doencas da sua respectiva classe no dicionario de doencas.
                     const doencas = doencas_lista[classe];
-                    
+
                     lista_de_doencas.innerHTML = '';
 
                     // Cria um item de lista para cada doenca.
@@ -463,20 +463,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Função para exibir informações sobre a doença.
                     function exibirInformacaoDoenca(doenca) {
+                        let blur_background_section1 = document.getElementById('section-1');
+                        let blur_background_section2 = document.getElementById('section-2');
                         let area_informacao_doenca = document.getElementById('informacao-doenca');
                         let informacoes_doenca = document.getElementById('info-doenca');
                         let precaucoes_doenca = document.getElementById('precaucao-doenca');
 
                         // Obtém as informações e precauções da doença.
-                        informacoes_doenca.innerHTML = descriptions_dict[doenca] || 'Informações não disponíveis.';
-                        precaucoes_doenca.innerHTML = precautions_dict[doenca] || 'Precauções não disponíveis.';
+                        informacoes_doenca.textContent = descriptions_dict[doenca] || 'Informações não disponíveis.';
+                        precaucoes_doenca.textContent = precautions_dict[doenca] || 'Precauções não disponíveis.';
 
                         area_informacao_doenca.style.display = 'block'; // Exibe a div de informações.
+                        blur_background_section1.className = 'section-blur';
+                        blur_background_section2.className = 'section-blur';
                     }
 
                     button_fechar_janela_infos.addEventListener('click', () => {
+                        let blur_background_section1 = document.getElementById('section-1');
+                        let blur_background_section2 = document.getElementById('section-2');
                         let area_informacao_doenca = document.getElementById('informacao-doenca');
+
                         area_informacao_doenca.style.display = 'none';
+                        blur_background_section1.className = 'section-no-blur';
+                        blur_background_section2.className = 'section-no-blur';
                     });
                 })
                 .catch(error => {
