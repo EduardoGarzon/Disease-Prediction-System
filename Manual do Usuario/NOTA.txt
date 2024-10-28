@@ -1,0 +1,3 @@
+Como o arquivo zip contendo tudo o que foi pedido ficou muito grande, 
+o manual do usuario contem o link do github onde toda a aplicacao pode ser encontrada
+contendo todos os arquivos solicitados.

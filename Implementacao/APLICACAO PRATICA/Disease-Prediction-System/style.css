@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* TODO O HTML */
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', 'Nunito Sans', monospace, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CABECALHO */
+header {
+    background-color: #141414;
+    color: white;
+    padding: 1em;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #e9eaed;
+    
+}
+
+/* CORPO PRINCIPAL */
+main {
+    flex: 1;
+    background-image: url('../img/pexels5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 1em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/* FORMULÁRIO DE SINTOMAS */
+#div-form {
+    background-color: #141414;
+    border: 3px solid #e9eaed;
+    height: 580px;
+    width: 320px;
+    text-align: center;
+
+}
+
+#div-form-h1 {
+    font-size: 0.6em;
+    border-bottom: 3px solid #e9eaed;
+    background-color: #e9eaed;
+    color: #e6d353;
+    text-shadow: 
+        0px 1px 2px black,  
+        0px 0px 4px black,
+        1px 0px 0px black,
+        0px 2px 0px black;
+    padding: 1em;
+}
+
+/* FORMULÁRIO */
+#sintomas-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+/* SELECT */
+#sintomas {
+    margin-top: 0.5em;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: bolder;
+    width: 220px;
+    height: 30px;
+    align-self: center;
+}
+
+/* LISTA DE SINTOMAS */
+#div-sintomas-list {
+    border: 3px solid #e9eaed;
+    height: 200px;
+    margin-top: 1em;
+    text-align: left;
+    padding: 2em;
+    font-family: 'Nunito Sans', 'Poppins', monospace, sans-serif;
+    background-color: #e6d353;
+}
+
+/* BOTOES DO FORMULARIO */
+#btn-remover-sintomas-selecionados {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: 3px solid #d6be1f;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+#btn-remover-sintomas-selecionados:hover {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: 3px solid #e9eaed;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #d6be1f;
+    letter-spacing: 0.09em;
+    transform: scale(1.05); 
+}
+
+#btn-limpar-tudo {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 3px solid #d6be1f;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+#btn-limpar-tudo:hover {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 3px solid #e9eaed;
+    background-color: #d6be1f;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.05); 
+    letter-spacing: 0.09em;
+}
+
+#btn-submit {
+    margin-top: 2em;
+    padding: 0.5em;
+    border: 3px solid #d6be1f;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+#btn-submit:hover {
+    margin-top: 2em;
+    padding: 0.5em;
+    border: 3px solid #e9eaed;
+    background-color: #d6be1f;    
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.05); 
+    letter-spacing: 0.09em;
+}
+
+/* ÁREA DE DIAGNÓSTICO */
+#div-area-de-diagnostico {
+    background-color: #141414;
+    border: 3px solid #e9eaed;
+    height: 580px;
+    width: 320px;
+}
+
+#div-area-de-diagnostico-h1 {
+    background-color: #e9eaed;
+    padding: 1em;
+}
+
+#div-area-de-diagnostico h1 {
+    border-bottom: 3px solid #e9eaed;
+    font-size: larger;
+    text-align: center;
+    color: #e6d353;
+    text-shadow: 
+        0px 1px 2px black,  
+        0px 0px 4px black,
+        1px 0px 0px black,
+        0px 2px 0px black; 
+}
+
+/* CABECALHO CLASSIFICACAO */
+#div-diagnostico {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#div-diagnostico-classificacao {
+    text-align: center;
+    color: #e6d353;
+}
+
+/* CLASSE DAS DOENCAS */
+#nome-da-classe {
+    font-size: large;
+    text-align: center;
+    border: 1px solid #e9eaed;
+    background-color: #e9eaed;
+    margin-top: 0.2em;
+}
+
+/* DOENCAS */
+#lista-de-doencas {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: large;
+    padding: 1em;
+    color: #e9eaed;
+    letter-spacing: 0.05em;
+}
+
+#lista-de-doencas li {
+    padding: 0.2em;
+}
+
+/* INFORMACAO SOBRE A DOENCA E PRECAUCAO */
+#informacao-doenca {
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #e6d353;
+    position: fixed;
+    width: 60vw;
+    height: 60vh;
+    background-color: #040f33;
+    border-radius: 24px;
+    padding: 2em;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para dar destaque */
+}
+
+#informacao-doenca h1 {
+    color: #e6d353;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#informacao-doenca p {
+    color: white;
+    text-align: justify;
+    padding: 0.5em;
+    font-family: 'Nunito Sans', 'Poppins', monospace, sans-serif;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+#btn-fechar-janela {
+    margin-top: 4em;
+    padding: 0.5em;
+    border: 3px solid #d6be1f;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    display: flex;
+    align-self: center;
+}
+
+#btn-fechar-janela:hover {
+    margin-top: 4em;
+    padding: 0.5em;
+    border: 3px solid #e9eaed;
+    background-color: #d6be1f;    
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.05); 
+    letter-spacing: 0.09em;
+}
+
+/* RODAPE */
+footer {
+    background-color: #A5ABB6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    border-top: 2px solid #e9eaed;
+    font-style: italic;
+    font-weight: 500;
+}
